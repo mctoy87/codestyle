@@ -1,0 +1,38 @@
+body {
+    background-color: #bf4b4b;
+    color: #ffffff;
+}
+.wrapper {
+    height: 800px;
+    background-image: url(image/welcome-html.jpg);
+    background-size: cover;
+}
+
+h1 {
+    background-color: #000000;
+    border-radius: 10%;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    text-decoration: underline;
+}
+
+ul {
+    border: 2px solid #0206e3;
+    height: min-content;
+}
+
+li {
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+:link, :visited {
+    color: #0206e3;
+    text-decoration: none;
+}
+ul :hover {
+    background-color: aqua;
+}
